@@ -17,5 +17,25 @@ namespace fukuv0520
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Text = "復習0520";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Left = 400;
+            button2.Top = 400;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.Enabled = false;
+        }
     }
 }
